@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		529A9C311DEF6D32005B0093 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A9C301DEF6D32005B0093 /* main.swift */; };
+		529A9C981DEFC647005B0093 /* Postag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A9C931DEFC647005B0093 /* Postag.swift */; };
+		529A9C991DEFC647005B0093 /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A9C941DEFC647005B0093 /* Relation.swift */; };
+		529A9C9A1DEFC647005B0093 /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A9C951DEFC647005B0093 /* Sentence.swift */; };
+		529A9C9B1DEFC647005B0093 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A9C961DEFC647005B0093 /* Text.swift */; };
+		529A9C9C1DEFC647005B0093 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A9C971DEFC647005B0093 /* Word.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		529A9C2B1DEF6D32005B0093 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		529A9C2D1DEF6D32005B0093 /* PerseusTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerseusTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		529A9C301DEF6D32005B0093 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		529A9C381DEF6D64005B0093 /* Treebank.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Treebank.framework; path = "../../../Library/Developer/Xcode/DerivedData/Perseus-bbxzmniqojjzxyatuxxrpdjskbxj/Build/Products/Debug/Treebank.framework"; sourceTree = "<group>"; };
+		529A9C931DEFC647005B0093 /* Postag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Postag.swift; path = ../../Treebank/Sources/Postag.swift; sourceTree = "<group>"; };
+		529A9C941DEFC647005B0093 /* Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Relation.swift; path = ../../Treebank/Sources/Relation.swift; sourceTree = "<group>"; };
+		529A9C951DEFC647005B0093 /* Sentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sentence.swift; path = ../../Treebank/Sources/Sentence.swift; sourceTree = "<group>"; };
+		529A9C961DEFC647005B0093 /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text.swift; path = ../../Treebank/Sources/Text.swift; sourceTree = "<group>"; };
+		529A9C971DEFC647005B0093 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Word.swift; path = ../../Treebank/Sources/Word.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529A9C2A1DEF6D32005B0093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		529A9C241DEF6D32005B0093 = {
+			isa = PBXGroup;
+			children = (
+				529A9C2F1DEF6D32005B0093 /* PerseusTool */,
+				529A9C2E1DEF6D32005B0093 /* Products */,
+				529A9C371DEF6D64005B0093 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		529A9C2E1DEF6D32005B0093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529A9C2D1DEF6D32005B0093 /* PerseusTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529A9C2F1DEF6D32005B0093 /* PerseusTool */ = {
+			isa = PBXGroup;
+			children = (
+				529A9C301DEF6D32005B0093 /* main.swift */,
+				529A9C931DEFC647005B0093 /* Postag.swift */,
+				529A9C941DEFC647005B0093 /* Relation.swift */,
+				529A9C951DEFC647005B0093 /* Sentence.swift */,
+				529A9C961DEFC647005B0093 /* Text.swift */,
+				529A9C971DEFC647005B0093 /* Word.swift */,
+			);
+			path = PerseusTool;
+			sourceTree = "<group>";
+		};
+		529A9C371DEF6D64005B0093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				529A9C381DEF6D64005B0093 /* Treebank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529A9C2C1DEF6D32005B0093 /* PerseusTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529A9C341DEF6D32005B0093 /* Build configuration list for PBXNativeTarget "PerseusTool" */;
+			buildPhases = (
+				529A9C291DEF6D32005B0093 /* Sources */,
+				529A9C2A1DEF6D32005B0093 /* Frameworks */,
+				529A9C2B1DEF6D32005B0093 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerseusTool;
+			productName = PerseusTool;
+			productReference = 529A9C2D1DEF6D32005B0093 /* PerseusTool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529A9C251DEF6D32005B0093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = proxpero;
+				TargetAttributes = {
+					529A9C2C1DEF6D32005B0093 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 55SVD8WGE3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 529A9C281DEF6D32005B0093 /* Build configuration list for PBXProject "PerseusTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 529A9C241DEF6D32005B0093;
+			productRefGroup = 529A9C2E1DEF6D32005B0093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529A9C2C1DEF6D32005B0093 /* PerseusTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529A9C291DEF6D32005B0093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529A9C311DEF6D32005B0093 /* main.swift in Sources */,
+				529A9C9B1DEFC647005B0093 /* Text.swift in Sources */,
+				529A9C991DEFC647005B0093 /* Relation.swift in Sources */,
+				529A9C9A1DEFC647005B0093 /* Sentence.swift in Sources */,
+				529A9C981DEFC647005B0093 /* Postag.swift in Sources */,
+				529A9C9C1DEFC647005B0093 /* Word.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		529A9C321DEF6D32005B0093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		529A9C331DEF6D32005B0093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		529A9C351DEF6D32005B0093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 55SVD8WGE3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		529A9C361DEF6D32005B0093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 55SVD8WGE3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529A9C281DEF6D32005B0093 /* Build configuration list for PBXProject "PerseusTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529A9C321DEF6D32005B0093 /* Debug */,
+				529A9C331DEF6D32005B0093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529A9C341DEF6D32005B0093 /* Build configuration list for PBXNativeTarget "PerseusTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529A9C351DEF6D32005B0093 /* Debug */,
+				529A9C361DEF6D32005B0093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529A9C251DEF6D32005B0093 /* Project object */;
+}

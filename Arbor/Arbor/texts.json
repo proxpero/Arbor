@@ -1,0 +1,72 @@
+{
+	"author":"Julius Caesar",
+	"title":"De bello Gallico",
+	"subtitle":"2.1-2.3; 2.5; 2.7; 2.9; 2.14-2.18; 2.32-2.33",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0448.phi001.perseus-lat1.tb.xml"
+},
+{
+	"author":"Cicero",
+	"title":"In Catilinam",
+	"subtitle":"1.1-2.11",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0474.phi013.perseus-lat1.tb.xml"
+},
+{
+	"author":"Propertius",
+	"title":"Elegies",
+	"subtitle":"1.1-1.22",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0620.phi001.perseus-lat1.tb.xml"
+},
+{
+	"author":"Sallust",
+	"title":"Catilina",
+	"subtitle":"",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0631.phi001.perseus-lat1.tb.xml"
+},
+{
+	"author":"Virgil",
+	"title":"Aeneis",
+	"subtitle":"VI.1-295",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0690.phi003.perseus-lat1.tb.xml"
+},
+{
+	"author":"Ovid",
+	"title":"Metamorphoses",
+	"subtitle":"1.1-1.778",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0959.phi006.perseus-lat1.tb.xml"
+},
+{
+	"author":"Petronius",
+	"title":"Satyricon",
+	"subtitle":"26-78",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0972.phi001.perseus-lat1.xml"
+},
+{
+	"author":"Phaedrus",
+	"title":"Fabulae Aesopiae",
+	"subtitle":"libri I-III",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi0975.phi001.perseus-lat1.tb.xml"
+},
+{
+	"author":"Augustus",
+	"title":"Res Gestae",
+	"subtitle":"",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi1221.phi007.perseus-lat1.tb.xml"
+},
+{
+	"author":"Suetonius",
+	"title":"De Vita Caesarum",
+	"subtitle":"Divus Augustus",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi1348.abo012.perseus-lat1.tb.xml"
+},
+{
+	"author":"Tacitus",
+	"title":"Annales",
+	"subtitle":"",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/phi1351.phi005.perseus-lat1.tb.xml"
+},
+{
+	"author":"Jerome",
+	"title":"Vulgate Bible",
+	"subtitle":"Apocalypsis",
+	"url":"https://raw.githubusercontent.com/proxpero/treebank_data/master/v2.1/Latin/texts/tlg0031.tlg027.perseus-lat1.tb.xml"
+}
